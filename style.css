@@ -47,3 +47,19 @@ textarea{
 	font-weight: bold;
 	align-self: center;
 }
+
+#stats{
+	flex: 0 0 280px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#stats>div{
+	display: flex;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+#stats>div>div{
+	flex: 1;
+}
