@@ -16,6 +16,16 @@ img{
 	border: 1px solid #444;
 }
 
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
 #game-wrapper{
 	display: flex;
 	width: 980px;
@@ -73,6 +83,12 @@ img{
 	font-size: 24px;
 }
 
+#author{
+	margin-top: 10px;
+	font-size: 14px;
+	font-style: italic;
+}
+
 textarea{
 	flex: 1;
 	resize: none;
@@ -109,4 +125,10 @@ textarea{
 
 .title{
 	font-weight: bold;
+}
+
+#creator{
+	margin-top: 30px;
+	font-style: italic;
+	color: #bdc3c7;
 }
