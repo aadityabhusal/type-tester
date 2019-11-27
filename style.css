@@ -26,6 +26,39 @@ h3{
 	position: relative;
 }
 
+#game>*,#layer>*{
+	margin-bottom: 30px;
+}
+
+#layer{
+	position: absolute;
+	background-color: #222;
+	font-size: 18px;
+	transition: 0.5s ease-in-out all;
+	line-height: 1.5;
+	padding: 0 20px;
+	top: 60px; bottom: 0; left: 5px; right: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#start{
+	align-self: center;
+	background-color: #27ae60;
+	border: none;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 20px;
+	cursor: pointer;
+	outline: 0;
+	transition: 0.2s ease-in-out transform;
+}
+
+#start:hover{
+	transform: scale(1.1);
+}
+
 #quote{	
 	font-size: 24px;
 }
