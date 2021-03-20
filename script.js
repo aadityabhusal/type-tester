@@ -2,7 +2,7 @@
 // https://cors-anywhere.herokuapp.com/
 // https://crossorigin.me/
 const apiURL =
-  "https://crossorigin.me/https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en";
+  "https://cors-anywhere.herokuapp.com/https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en";
 const quote = document.querySelector("#quote");
 const userText = document.querySelector("#userText");
 const timer = document.querySelector("#timer");
